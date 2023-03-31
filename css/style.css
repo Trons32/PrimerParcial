@@ -1,0 +1,181 @@
+:root{
+
+    --header: #343C3F;
+    --body: #E7E7E7;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+h1{
+    color: #0C044E;
+}
+
+.flexContainer{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding: 10px 30px;
+    box-shadow: 2px 2px 12px rgb(151, 150, 150);
+    width: 80%;
+    border: 2px solid rgb(241, 241, 241);    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height:  60px;
+    width: 100%;
+}
+
+
+.ladoIzquierdo{
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ladoDerecho{
+    width: 85%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu a{
+    display: block;
+    font-size: 12px;
+    padding: 20px 40px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.lIzquierdo{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.lIzquierdo p{
+    width: 90%;
+    margin-top: 30px;
+}
+
+.lDerecho{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.flexCard{
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imgArt{
+    width: 150px;
+}
+
+.textCard{
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+.lDerechoFooter{
+    width: 30%;
+
+}
+
+.lDerechoFooter  p{
+    margin-top: 20px;
+}
+
+.cardMenu{
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 25px ;
+    box-shadow: 2px 2px 10px #b1b0b0; 
+    
+}
+
+
+
+.list{
+    margin-top: 15px;
+    list-style: none;
+    font-size: 12px;
+}
+.list li{
+    padding: 2px 2px ;
+}
+
+.palette{
+    display: flex;
+    justify-content: center;
+}
+
+.dot1 {
+    height: 45px;
+    width: 45px;
+    background-color: #090458;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dot2 {
+    height: 45px;
+    width: 45px;
+    background-color: #FB96B4;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 45px;
+    width: 45px;
+    background-color: #414141;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot4 {
+    height: 45px;
+    width: 45px;
+    background-color: #B8B8B8;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.listColors{
+    margin-top: 60px;
+}
+
+.circle{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.circle p{
+    margin-left: 10px;
+}
